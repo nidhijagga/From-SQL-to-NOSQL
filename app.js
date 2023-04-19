@@ -48,7 +48,7 @@ app.use("/user", userRouter);
 
 // app.use("/premium", leaderboardRouter);
 
-// app.use("/password", resetPasswordRouter);
+app.use("/password", resetPasswordRouter);
 
 // app.use("/reports", reportsRouter);
 

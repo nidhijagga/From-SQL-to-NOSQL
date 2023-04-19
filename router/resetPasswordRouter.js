@@ -1,4 +1,4 @@
-/* const express = require("express");
+const express = require("express");
 const router = express.Router();
 const resetPasswordController = require("../controllers/resetPasswordController");
 
@@ -11,4 +11,3 @@ router.get(
 router.post("/resetPassword", resetPasswordController.updatePassword);
 
 module.exports = router;
- */
