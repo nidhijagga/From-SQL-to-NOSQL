@@ -53,7 +53,7 @@ exports.updateTransactionStatus = async (req, res) => {
       });
   } catch (err) {
     console.log(err);
-    res.status(403).json({ error: err, message: "Sometghing went wrong" });
+    res.status(403).json({ error: err, message: "Something went wrong" });
   }
 };
 

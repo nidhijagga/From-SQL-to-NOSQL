@@ -23,7 +23,7 @@ exports.monthlyReports = async (req, res, next) => {
     const expenses = await Expense.find({
       date: { $regex: `.*-${month}-.*` },
       userId: userId,
-    }).lean();
+    });
 
     // // group expenses by category and calculate total amount
     // const categoryWiseTotal = {};
